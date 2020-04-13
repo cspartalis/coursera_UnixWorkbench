@@ -6,10 +6,11 @@
 
 README.md: guessinggame.sh
 	touch README.md
-	echo "1. The Guessing Game by cspartalis" > README.md
-	echo "2. " >> README.md
+	printf "* The Guessing Game by cspartalis" > README.md
+	printf "* " >> README.md
 	date +%c >> README.md
-	echo "3. " >> README.md
+	printf "\n" >> REEADME.md
+	printf "* " >> README.md
 	wc -l guessinggame.sh >> README.md
 
 	 

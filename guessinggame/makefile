@@ -1,4 +1,3 @@
-#!/usr/bin/bash
 # The makefile produces the README.md which contains:
 # 1. The title of the project
 # 2. The date and time at which make was run
